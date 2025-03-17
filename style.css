@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Assets/LoopingBackground.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.GridLogo {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1fr);
+}
+
+.Title {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1fr);
+}
+
+.GridPersonalVideoWork {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr;
+}
+
+.GridChild {
+    margin: 5px;
+    display: grid;
+    place-items: center;
+}
+
+.GridChildPfp {
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+#Logo {
+    width: 80%;
+    height: auto;
+}
+
+#Pfp {
+    width: 45%;
+    height: auto;
+}
+
+#Title {
+    color: rgb(51, 55, 121);
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
