@@ -85,7 +85,37 @@ html {
         position: relative;
         top: 1rem;
         left: -3rem;
-    }        
+    }
+
+    .Title {
+        margin-top: 2rem;
+        display: grid;
+        place-items: center;
+    }
+
+    h1 {
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #1E2887;
+        font-size: 2rem;
+    }
+
+    .ColoristGrid {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+        grid-template-rows: auto
+    }
+
+    .Video {
+        margin: 0.5rem;
+    }
+
+    iframe {
+        aspect-ratio: 16 / 9;
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -163,6 +193,35 @@ html {
         position: relative;
         top: .5rem;
         left: -1rem;
+    }
+
+    .Title {
+        margin-top: 2rem;
+        display: grid;
+        place-items: center;
+    }
+
+    h1 {
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #1E2887;
+        font-size: 1.7rem;
+    }
+
+    .ColoristGrid {
+        display: grid;
+        grid-template-columns: 0.2fr 1fr 1fr 1fr 0.2fr
+    }
+
+    .Video {
+        margin: 0.2rem;
+    }
+
+    iframe {
+        aspect-ratio: 16 / 9;
+        width: 100% !important;
     }
 }
 
@@ -242,5 +301,35 @@ html {
         position: relative;
         top: .5rem;
         left: -1rem;
+    }
+
+    .Title {
+        margin-top: 2rem;
+        display: grid;
+        place-items: center;
+    }
+
+    h1 {
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #1E2887;
+        font-size: 1rem;
+    }
+
+    .ColoristGrid {
+        display: grid;
+        grid-template-columns: 1fr
+    }
+
+    .Video {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    iframe {
+        aspect-ratio: 16 / 9;
+        width: 100% !important;
     }
 }
