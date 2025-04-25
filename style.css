@@ -1,3 +1,8 @@
+body {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 img {
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3));
 }
@@ -139,4 +144,61 @@ a {
 .FooterGrid {
     display: grid;
     grid-auto-rows: 250px;
+}
+
+@media (max-width: 675px) {
+    body {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    ul {
+        padding-right: 6.5vw;
+    }    
+
+    li a {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        text-size-adjust: 2vw;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    ul {
+        padding-right: 8.5vw;
+    }    
+
+    li a {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin-left: -0.5vw;
+        margin-right: -0.5vw;
+        text-size-adjust: 2vw;
+    }
+}
+
+@media (max-width: 330px) {
+    body {
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+
+    ul {
+        padding-right: 8.5vw;
+    }    
+
+    li a {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin-left: -1vw;
+        margin-right: -1vw;
+        text-size-adjust: 2vw;
+    }
 }
