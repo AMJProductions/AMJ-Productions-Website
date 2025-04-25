@@ -1,49 +1,132 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSFF3617P2"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-NSFF3617P2');
-        </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>AMJ Productions</title>
-        <link rel="icon" type="image/x-icon" href="Assets/AMJPfpL.png">
-        <meta name="description" content="Official AMJ Productions Website">
+        <meta name="description" content="The official website for AMJ Productions and the work of Anthony Jones">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Jersey+25&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Jersey+10&family=Jersey+25&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                box-sizing: border-box;
+                /* border: 1px solid black; */
+                text-align: center;
+                text-decoration: none;
+            }
+
+            body {
+                margin-left: 5vw;
+                margin-right: 5vw;
+            }
+
+            h1 {
+                font-family: "Jersey 10", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                color: #FF9FF1;
+                font-size: 5.7vw;
+                text-shadow: 0.2vw 0.2vw #1E2887;
+            }
+
+            p {
+                font-family: "Jersey 10", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                color: #FF9FF1;
+                font-size: 3vw;
+                text-shadow: 0.18vw 0.18vw #1E2887;
+            }
+
+            html {
+                background-image:url('Assets/AMJBkg.gif');
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                scroll-behavior: smooth;
+                scroll-padding: 7vw;
+            }
+        </style>
     </head>
     <body>
-        <div class="LogoGrid">
-            <div></div>
-            <div class="AMJLogo"><img id="AMJLogo" src="Assets/AMJLogo.gif" alt="AMJ Productions Logo"></div>
-            <div></div>
+        <header>
+            <div class="LogoGrid">
+                <img style="width: 50vw; height: auto; position: relative; bottom: -4vw;" src="Assets/AMJLogo.gif" alt="AMJ Productions Logo">
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Colorist">Colorist</a></li>
+                <li><a href="#Videos">Videos</a></li>
+                <li><a href="">Music</a></li>
+                <li><a href="">Analog</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <div id="Home" class="TitleGrid">
+            <h1>Latest Video</h1>
         </div>
-        <div class="AboutGrid">
-            <div class="Border1"></div>
-            <div class="AMJPfpL"><img id="AMJPfpL" src="Assets/AMJPfpL.png" alt="AMJ Productions Profile Picture"></div>
-            <div class="AnthonyJones"><img id="AnthonyJones" src="Assets/AnthonyJones.png" alt="Anthony Jones"></div>
-            <div class="About"><img id="About" src="Assets/About.png" alt="About Anthony Jones"></div>
-            <div class="Border2"></div>
-        </div>
-        <div class="Title">
-            <h1>Colorist Video Work</h1>
-        </div>
-        <div class="ColoristGrid">
+        <div class="HomePageGrid">
             <div></div>
-            <div class="Video"><iframe src="https://www.youtube.com/embed/V_xwhlqnd10?si=kArR7aLWMWy5kdyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            <div class="Video"><iframe src="https://player.vimeo.com/video/843573314?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="BUG DINER (Trailer)"></iframe></div>
-            <div class="Video"><iframe src="https://player.vimeo.com/video/1041052469?h=95f95764ed&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="M"></iframe></div>
-            <div></div>
+            <div class="HomePageVideo">
+                <iframe class="LatestVideo" src="https://www.youtube.com/embed/r7zovndd_v8?si=5fxqFjuSWuaAs8KC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="PFP">
+                <img style="width: 135%; height: auto; position: relative; bottom: 15.2vw; left: -2.5vw;" src="Assets/AMJPfpL.png" alt="AMJ Productions Profile Picture">
+            </div>
+            <div class="Occupations">
+                <img style="width: 100%; height: auto; position: relative; bottom: -0.5vw; left: -1vw" src="Assets/About.png" alt="My occupations">
+            </div>
+            <div class="HomeVideoDescription">
+                <p>Music Video for my song "20" released under the name Knife Juice</p>
+            </div>
         </div>
+        <div id="Colorist" class="TitleGrid">
+            <h1>Colorist Work</h1>
+        </div>
+        <div class="VideoGrid">
+            <div class="CenterVideo">
+                <iframe class="SmallVideo" src="https://player.vimeo.com/video/843573314?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="BUG DINER (Trailer)"></iframe>
+            </div>
+            <div class="CenterVideo">
+                <iframe class="SmallVideo" src="https://www.youtube.com/embed/V_xwhlqnd10?si=kArR7aLWMWy5kdyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="CenterVideo">
+                <img style="width: 93%; height: auto; clip-path: inset(0% 0% 0% 0% round 10px);" src="Assets/DATEOTWPoster.jpeg" alt="Poster for Dinner at the End of the World">
+            </div>
+            <div class="CenterVideo">
+                <iframe class="SmallVideo" src="https://player.vimeo.com/video/1041052469?h=95f95764ed&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="M"></iframe>
+            </div>
+        </div>
+        <div id="Videos" class="TitleGrid">
+            <h1>Personal Video Work</h1>
+        </div>
+        <div class="VideoGrid">
+            <div class="CenterVideo">
+                <iframe class="SmallVideo" src="https://www.youtube.com/embed/UK8I8MJj0oQ?si=xsknortp_uQwiq-L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="CenterVideo">
+                <iframe class="SmallVideo" src="https://www.youtube.com/embed/q4yvpelkXc8?si=BAR2O18LIUEGDVJ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="CenterVideo">
+                <iframe class="SmallVideo" src="https://www.youtube.com/embed/AfKVjEHgu1w?si=LUufuXcUNUe9qIkB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="CenterVideo">
+                <iframe class="SmallVideo" src="https://www.youtube.com/embed/l3Y9GydlIsc?si=K3n-ElJir2hN2PBH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <footer>
+            <div class="FooterGrid">
+                <p><i>AMJ Productions Copyright 2025</i></p>
+            </div>
+        </footer>
+        <script src="" async defer></script>
     </body>
 </html>
-<!-- Hello And Welcome To My Website :) -->
