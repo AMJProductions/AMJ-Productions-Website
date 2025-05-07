@@ -18,9 +18,20 @@
                 /* border: 1px solid black; */
                 text-align: center;
                 text-decoration: none;
+                image-rendering: pixelated;
             }
 
             h1 {
+                font-family: "Jersey 10", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                color: #FF9FF1;
+                font-size: 5.7vw;
+                text-shadow: 0.2vw 0.2vw #1E2887;
+            }
+
+            h2 {
                 font-family: "Jersey 10", sans-serif;
                 font-optical-sizing: auto;
                 font-weight: 400;
@@ -73,7 +84,7 @@
         <div class="HomePageGrid">
             <div></div>
             <div class="HomePageVideo">
-                <iframe class="LatestVideo" src="https://www.youtube.com/embed/r7zovndd_v8?si=5fxqFjuSWuaAs8KC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="LatestVideo" src="https://www.youtube.com/embed/z1CwEyrBvxI?si=KPj3GPKvhwiuJcah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="PFP">
                 <img style="width: 135%; height: auto; position: relative; bottom: 15.2vw; left: -2.5vw;" src="Assets/AMJPfpL.png" alt="AMJ Productions Profile Picture">
@@ -82,7 +93,7 @@
                 <img style="width: 100%; height: auto; position: relative; bottom: -0.5vw; left: -1vw" src="Assets/About.png" alt="My occupations">
             </div>
             <div class="HomeVideoDescription">
-                <p>Music Video for my song "20" released under the name Knife Juice</p>
+                <p>Prelude to Paranoid</p>
             </div>
         </div>
         <div id="Colorist" class="TitleGrid">
@@ -113,7 +124,7 @@
                 <iframe class="SmallVideo" src="https://www.youtube.com/embed/q4yvpelkXc8?si=BAR2O18LIUEGDVJ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="CenterVideo">
-                <iframe class="SmallVideo" src="https://www.youtube.com/embed/AfKVjEHgu1w?si=LUufuXcUNUe9qIkB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="SmallVideo" src="https://www.youtube.com/embed/r7zovndd_v8?si=5fxqFjuSWuaAs8KC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="CenterVideo">
                 <iframe class="SmallVideo" src="https://www.youtube.com/embed/l3Y9GydlIsc?si=K3n-ElJir2hN2PBH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -158,11 +169,39 @@
                 <iframe class="ShortsVideo" src="https://www.youtube.com/embed/syQYFlYPvew?si=6P2DEnEC1hQL4xxR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
+        <section class="contact-section">
+            <div class="contact-intro">
+                <h2>Get in Touch</h2>
+            </div>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d9c1d818-a9aa-4a01-827f-475fba3d7bfe" />
+                <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+                <input type="hidden" name="from_name" value="My Website" />
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input id="phone" name="phone" class="form-input" placeholder="Your Phone" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <button class="form-submit" type="submit">Send Message</button>
+            </form>
+        </section>
         <footer>
             <div class="FooterGrid">
                 <p><i>AMJ Productions Copyright 2025</i></p>
             </div>
         </footer>
-        <script src="" async defer></script>
     </body>
 </html>
