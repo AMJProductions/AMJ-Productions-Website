@@ -40,6 +40,32 @@
         <p>Click the link below to go back to the future</p>
         <a href="index.html"><u>amj.productions</u></a>
         <br>
-        <img src="https://web.archive.org/web/20090830200258im_/http://www.geocities.com/sanjhapunjab/babyjatt.gif" alt="Classic Dancing Baby Gif">
+        <div style="position: relative;">
+            <img src="https://web.archive.org/web/20090830200258im_/http://www.geocities.com/sanjhapunjab/babyjatt.gif" alt="Classic Dancing Baby Gif">
+        </div>
+        <br>
+        <h2 class="rainbow3">Here! Have some exclusive Knife Juice!!</h2>
+        <br>
+        <iframe height="347" width="275" scrolling="no" srcdoc="
+          <body style='padding: 0; margin: 0'>
+            <div id='app' style='height: 100vh'></div>
+            <script src='https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js'></script>
+            <script>
+              const Webamp = window.Webamp;
+              const webamp = new Webamp({
+                initialTracks: [
+                {
+                metaData: {
+                  artist: 'Knife Juice',
+                  title: 'The Midi To The Grave (Demo)',
+                },
+                url: 'Assets/TheMidiToTheGrave.mp3',
+                duration: 45,
+                },
+                ],
+              });
+            webamp.renderWhenReady(document.getElementById('app'));
+            </script>
+          </body>"/>
     </body>
 </html>
