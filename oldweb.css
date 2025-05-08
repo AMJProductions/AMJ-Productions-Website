@@ -29,6 +29,10 @@ img {
     animation: colorRotate2 2s linear 0s infinite;
 }
 
+.rainbow3 {
+    animation: colorRotate 1s linear 0s infinite;
+}
+
 @keyframes colorRotate {
     from {
       color: #6666ff;
